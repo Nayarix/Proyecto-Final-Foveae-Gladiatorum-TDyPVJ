@@ -1,0 +1,71 @@
+# =========================================================================
+# UNREAL ENGINE - Archivos temporales, generados y de cache
+# =========================================================================
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Archivos de caché del editor
+.utouch
+*.xcodeproj
+*.xcworkspace
+
+# =========================================================================
+# IDEs & HERRAMIENTAS DE DESARROLLO (Visual Studio, Rider, VS Code)
+# =========================================================================
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sdf
+*.suo
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# JetBrains Rider / CLion
+.idea/
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Xcode / Mac build files
+*.dSYM/
+
+# =========================================================================
+# PLUGINS Y RECURSOS GENERADOS / TEMPORALES
+# =========================================================================
+# Plugins que se compilan localmente (descomenta si compilas plugins en desarrollo)
+# Plugins/*/Binaries/
+# Plugins/*/Intermediate/
+
+# Contenido local o temporal
+Content/Developers/
+Content/Collections/
+
+# =========================================================================
+# SISTEMA OPERATIVO Y ARCHIVOS DE ENTORNO
+# =========================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Archivos de entorno y credenciales (si utilizas APIs/backend)
+.env
+.env.*
